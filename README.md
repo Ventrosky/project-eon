@@ -1,10 +1,15 @@
-# project-eon
+# Project Eon
 
-A repo containing custom card game projects.
+A repository containing custom cards for the **Arkham Horror: The Card Game**, created and managed through [**Strange Eons**](https://strangeeons.cgjennings.ca/).
+
+## About
+
+This project focuses on creating custom investigator cards and related components for Arkham Horror LCG, just for fun.
 
 ## Projects
 
-- **Arkhamler** – A fan-made set of cards inspired by Arkham Horror LCG.
+### Arkhamler
+A fan-made set of cards inspired by colleagues at work with whom I regularly play Arkham Horror.
 
 ## Disclaimer
 
