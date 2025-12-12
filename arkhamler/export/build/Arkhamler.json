@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "code": "be2af41d-9065-4b8e-970f-7cf37c197a8g",
+    "name": "Arkhamler",
+    "description": "Custom Investigators.",
+    "author": "Ventrosky",
+    "language": "it",
+    "external_link": "https://mysteriouschanting.wordpress.com/2020/10/30/alice-in-wonderland-campaign/",
+    "banner_url": "https://inexorablefate.com/projects/Alice%20in%20Wonderland.png",
+    "banner_credit": "Hanh Chu",
+    "types": ["investigators"],
+    "status": "final",
+    "date_updated": "2025-12-10T08:53:24.798",
+    "generator": "Manually"
+  },
+  "data": {
+    "cards": [
+    {
+        "back_flavor": "xxxxxxx",
+        "back_name": "Salvatore Ventrone",
+        "back_text": "<b>Deck Size</b>: 30\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0–5, Neutral cards level 0–5, cards with \"uses (secrets)\" level 0–2, up to five other level 0 Mystic and/or Survivor cards ([mystic] and/or [survivor]).\n<b>Deckbuilding Requirements </b>(do not count toward deck size): Mysteries of Wonderland, Lost in Thought, 1 random basic weakness.",
+        "code": "875b030c-3b40-4b14-8b3b-1d294acb6f6b",
+        "deck_requirements": "size:30, card:4ad4b6c2-31fd-4e21-8bc8-2785b13a280c, card:7a567ba9-a40c-49b1-b02a-8029a0e74f0c, random:subtype:basicweakness",
+        "deck_options": [
+          {
+            "faction": ["seeker", "neutral"],
+            "level": {
+              "min": 0,
+              "max": 5
+            }
+          },
+          {
+            "level": {
+              "min": 0,
+              "max": 2
+            },
+            "text": ["Uses \\(\\d+ secrets\\)"]
+          },
+          {
+            "faction": ["mystic", "survivor"],
+            "level": {
+              "min": 0,
+              "max": 0
+            },
+            "limit": 5
+          }
+        ],
+        "deck_limit": 1,
+        "double_sided": true,
+        "faction_code": "survivor",
+        "flavor": "\"TODO.\"",
+        "health": 6,
+        "illustrator": "AI",
+        "is_unique": true,
+        "name": "Salvatore Ventrone",
+        "pack_code": "be2af41d-9065-4b8e-970f-7cf37c197a8g",
+        "position": 305,
+        "quantity": 1,
+        "sanity": 8,
+        "skill_agility": 2,
+        "skill_combat": 2,
+        "skill_intellect": 4,
+        "skill_willpower": 4,
+        "subname": "The Wonder Worker",
+        "text": "[reaction] When an investigator at your location initiates a skill test: Set the base value for that skill equal to Alice's base [intellect] for that test. (Limit once per round.)\n[elder_sign] +0. Choose and shuffle a card from your discard pile back into your deck. Any investigator at your location may use this effect instead of their own elder sign effect.",
+        "traits": "Dreamer.",
+        "type_code": "investigator",
+        "image_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Salvatore-Ventrone-Front-Face.png?raw=true",
+        "thumbnail_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Salvatore-Ventrone-Front-Face.png?raw=true",
+        "back_image_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Salvatore-Ventrone-Back-Face.png?raw=true",
+        "back_thumbnail_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Salvatore-Ventrone-Back-Face.png?raw=true"
+      },
+      {
+        "code": "4ad4b6c2-31fd-4e21-8bc8-2785b13a280a",
+        "cost": 3,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "`And how do you know that you’re mad?’\n",
+        "illustrator": "Hanh Chu",
+        "name": "Sovra Analisi",
+        "pack_code": "be2af41d-9065-4b8e-970f-7cf37c197a8g",
+        "position": 306,
+        "quantity": 1,
+        "restrictions": "investigator:875b030c-3b40-4b14-8b3b-1d294acb6f6b",
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "subname": "Further Down the Rabbit Hole",
+        "text": "Alice Liddell deck only.\n[free] During a skill test you are performing, exhaust Mysteries of Wonderland: You get +X skill value for this test, where X is the highest number of secrets on an asset you control (to a maximum of +4). After that test resolves, remove 1 secret from that asset.",
+        "traits": "Talent. Boon. Madness?",
+        "type_code": "asset",
+        "image_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Sovra-analisi-Front-Face.png?raw=true",
+        "thumbnail_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Sovra-analisi-Front-Face.png?raw=true"
+      },
+      {
+        "code": "7a567ba9-a40c-49b1-b02a-8029a0e74f0b",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Clement Caubet",
+        "name": "Modello Predittivo",
+        "pack_code": "be2af41d-9065-4b8e-970f-7cf37c197a8g",
+        "position": 307,
+        "quantity": 1,
+        "restrictions": "investigator:875b030c-3b40-4b14-8b3b-1d294acb6f6b",
+        "subtype_code": "weakness",
+        "text": "Uses (0 secrets). If there are 4 or more secrets on Lost in Thought, discard it.\n<b>Revelation</b> - Put Lost in Thought into play in your threat area.\nSet your base [intellect] to X, where X is the number of secrets on Lost in Thought. Ignore any other game effect that would change your base [intellect].\n[free] Move 1 secret from an asset you control to Lost in Thought. \n<b>Forced</b> - At the end of the round, place 1 resource token on   Lost in Thought from the token bank, as a secret.",
+        "traits": "Madness.",
+        "type_code": "treachery",
+        "image_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Modello-Predittivo-Front-Face.png?raw=true",
+        "thumbnail_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Modello-Predittivo-Front-Face.png?raw=true"
+      },
+    {
+        "back_flavor": "xxxxxxx",
+        "back_name": "Daniele D'Orazio",
+        "back_text": "",
+        "code": "d01",
+        "deck_requirements": "size:30, card:4ad4b6c2-31fd-4e21-8bc8-2785b13a280c, card:7a567ba9-a40c-49b1-b02a-8029a0e74f0c, random:subtype:basicweakness",
+        "deck_options": [
+          {
+            "faction": ["seeker", "neutral"],
+            "level": {
+              "min": 0,
+              "max": 5
+            }
+          },
+          {
+            "level": {
+              "min": 0,
+              "max": 2
+            },
+            "text": ["Uses \\(\\d+ secrets\\)"]
+          },
+          {
+            "faction": ["mystic", "survivor"],
+            "level": {
+              "min": 0,
+              "max": 0
+            },
+            "limit": 5
+          }
+        ],
+        "deck_limit": 1,
+        "double_sided": true,
+        "faction_code": "survivor",
+        "flavor": "\"TODO.\"",
+        "health": 6,
+        "illustrator": "AI",
+        "is_unique": true,
+        "name": "Salvatore Ventrone",
+        "pack_code": "be2af41d-9065-4b8e-970f-7cf37c197a8g",
+        "position": 305,
+        "quantity": 1,
+        "sanity": 8,
+        "skill_agility": 2,
+        "skill_combat": 2,
+        "skill_intellect": 4,
+        "skill_willpower": 4,
+        "subname": "The Wonder Worker",
+        "text": "[reaction] When an investigator at your location initiates a skill test: Set the base value for that skill equal to Alice's base [intellect] for that test. (Limit once per round.)\n[elder_sign] +0. Choose and shuffle a card from your discard pile back into your deck. Any investigator at your location may use this effect instead of their own elder sign effect.",
+        "traits": "Dreamer.",
+        "type_code": "investigator",
+        "image_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Salvatore-Ventrone-Front-Face.png?raw=true",
+        "thumbnail_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Salvatore-Ventrone-Front-Face.png?raw=true",
+        "back_image_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Salvatore-Ventrone-Back-Face.png?raw=true",
+        "back_thumbnail_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Salvatore-Ventrone-Back-Face.png?raw=true"
+      },
+      {
+        "code": "4ad4b6c2-31fd-4e21-8bc8-2785b13a280a",
+        "cost": 3,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "`And how do you know that you’re mad?’\n",
+        "illustrator": "Hanh Chu",
+        "name": "Sovra Analisi",
+        "pack_code": "be2af41d-9065-4b8e-970f-7cf37c197a8g",
+        "position": 306,
+        "quantity": 1,
+        "restrictions": "investigator:875b030c-3b40-4b14-8b3b-1d294acb6f6b",
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "subname": "Further Down the Rabbit Hole",
+        "text": "Alice Liddell deck only.\n[free] During a skill test you are performing, exhaust Mysteries of Wonderland: You get +X skill value for this test, where X is the highest number of secrets on an asset you control (to a maximum of +4). After that test resolves, remove 1 secret from that asset.",
+        "traits": "Talent. Boon. Madness?",
+        "type_code": "asset",
+        "image_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Sovra-analisi-Front-Face.png?raw=true",
+        "thumbnail_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Sovra-analisi-Front-Face.png?raw=true"
+      },
+      {
+        "code": "7a567ba9-a40c-49b1-b02a-8029a0e74f0b",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Clement Caubet",
+        "name": "Modello Predittivo",
+        "pack_code": "be2af41d-9065-4b8e-970f-7cf37c197a8g",
+        "position": 307,
+        "quantity": 1,
+        "restrictions": "investigator:875b030c-3b40-4b14-8b3b-1d294acb6f6b",
+        "subtype_code": "weakness",
+        "text": "Uses (0 secrets). If there are 4 or more secrets on Lost in Thought, discard it.\n<b>Revelation</b> - Put Lost in Thought into play in your threat area.\nSet your base [intellect] to X, where X is the number of secrets on Lost in Thought. Ignore any other game effect that would change your base [intellect].\n[free] Move 1 secret from an asset you control to Lost in Thought. \n<b>Forced</b> - At the end of the round, place 1 resource token on   Lost in Thought from the token bank, as a secret.",
+        "traits": "Madness.",
+        "type_code": "treachery",
+        "image_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Modello-Predittivo-Front-Face.png?raw=true",
+        "thumbnail_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Modello-Predittivo-Front-Face.png?raw=true"
+      }
+    ],
+    "encounter_sets":[],
+    "packs": [
+      {
+        "code": "be2af41d-9065-4b8e-970f-7cf37c197a8g",
+        "name": "Arkhamler",
+        "date_release": "2025-12-10",
+        "icon_url": "https://github.com/Ventrosky/project-eon/blob/main/arkhamler/export/cards/Modello-Predittivo-Front-Face.png?raw=true"
+      }
+    ]
+  }
+}
